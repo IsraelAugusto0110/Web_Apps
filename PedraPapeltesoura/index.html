@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo de Pedra Papel Tesoura</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Pedra Papel Tesoura</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="user-label"class="badge">Usuario</div>
+            <div id="computer-label" class="badge">Computador</div>
+            <span id="user-score">0</span> : <span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Papel cobre pedra. Você ganhou!!</p>
+        </div>
+
+        <div class="choices">
+            <div id="r" class="choice">
+                <img src="assets/images/pedra.png" alt="pedraicone">
+            </div>
+            <div id="p" class="choice">
+                <img src="assets/images/papel.png" alt="papelcone">
+            </div>
+            <div id="s" class="choice">
+                <img src="assets/images/tesoura.png" alt="tesouraicone">
+            </div>
+        </div>
+
+        <p id="action-message">Escolha seu movimento</p>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
